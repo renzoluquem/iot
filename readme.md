@@ -1,0 +1,8 @@
+
+| Application Service Layer Requirement | Especificación de requisitos |
+| :--- | :--- |
+| **Servicio de Monitoreo de Temperatura en Tiempo Real** | <ul><li>Interfaz gráfica en aplicación móvil y de escritorio para visualizar la temperatura del ambiente en tiempo real.</li><li>Indicador visual del modo de operación actual (NORMAL / WARNING / CRITICAL).</li><li>Gráficos históricos del comportamiento de la temperatura (diario, semanal, mensual).</li></ul> |
+| **Servicio de Control del Ventilador** | <ul><li>Interfaz en aplicación móvil para forzar manualmente el encendido o apagado del ventilador de forma remota.</li><li>Indicador visual del estado actual del ventilador (ON / OFF).</li></ul> |
+| **Servicio de Notificaciones y Alertas** | <ul><li>Notificaciones push en aplicación móvil cuando la temperatura alcanza el nivel CRITICAL.</li><li>Configuración de destinatarios y canales de aviso.</li></ul> |
+| **Servicio de Configuración del Dispositivo** | <ul><li>Interfaz en aplicación de escritorio y móvil para ajustar los umbrales de temperatura de cada modo (NORMAL / WARNING / CRITICAL).</li><li>Gestión de la conexión WiFi y parámetros del endpoint REST de transmisión de datos.</li></ul> |
+| **Servicio de Mantenimiento y Soporte** | <ul><li>Sección en la aplicación web con manuales de usuario y estado de conectividad del dispositivo.</li><li>Avisos de actualización de firmware y envío de consultas a soporte técnico.</li></ul> |
